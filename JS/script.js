@@ -1,5 +1,5 @@
 // output psw
-const outputTag = document.getElementById (pswGen);
+const outputTag = document.getElementById (outPut);
 
 // name
 
@@ -24,3 +24,11 @@ console.log(prefColor);
 const numberGen = 23;
 
 console.log(numberGen);
+
+
+// psw generated
+
+const pswGen = name + lastName + prefColor
++ numberGen ;
+
+console.log(pswGen);
