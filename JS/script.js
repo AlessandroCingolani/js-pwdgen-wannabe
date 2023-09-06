@@ -5,5 +5,16 @@ const outputTag = document.getElementById ('pswGen');
 
 const name = prompt('Whats your name? ');
 
+console.log('name');
+
 // lastname
 
+const lastName = prompt('Whats your lastname?');
+
+console.log('lastName');
+
+// color 
+
+const prefColor = prompt('Whats your preferite color?');
+
+console.log('prefColor');
