@@ -1,5 +1,5 @@
 // output psw
-const outputTag = document.getElementById (outPut);
+const outputTag = document.getElementById ('outPut');
 
 // name
 
@@ -35,4 +35,4 @@ console.log(pswGen);
 
 // add pswGen to html
 
-document.getElementById('outPut').innerHTML = pswGen;
+outputTag.innerHTML = pswGen;
