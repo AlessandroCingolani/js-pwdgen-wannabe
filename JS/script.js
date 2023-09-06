@@ -1,5 +1,5 @@
 // output psw
-const outputTag = document.getElementById ('pswGen');
+const outputTag = document.getElementById (pswGen);
 
 // name
 
