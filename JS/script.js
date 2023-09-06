@@ -32,3 +32,7 @@ const pswGen = name + lastName + prefColor
 + numberGen ;
 
 console.log(pswGen);
+
+// add pswGen to html
+
+document.getElementById('outPut').innerHTML = pswGen;
