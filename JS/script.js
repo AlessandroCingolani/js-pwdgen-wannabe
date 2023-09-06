@@ -35,7 +35,9 @@ console.log(pswGen);
 
 // remove spaces
 
-const pswGen_noSpaces = pswGen.split(" ").join("");
+// const pswGen_noSpaces = pswGen.split(" ").join("");
+
+let pswGen_noSpaces = pswGen.replace(/ +/g, "");
 
 // add pswGen to html
 
