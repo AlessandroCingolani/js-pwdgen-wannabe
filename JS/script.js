@@ -33,6 +33,10 @@ const pswGen = name + lastName + prefColor
 
 console.log(pswGen);
 
+// remove spaces
+
+const pswGen_noSpaces = pswGen.split(" ").join("");
+
 // add pswGen to html
 
-outputTag.innerHTML = pswGen;
+outputTag.innerHTML = pswGen_noSpaces;
