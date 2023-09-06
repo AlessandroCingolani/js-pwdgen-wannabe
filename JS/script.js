@@ -3,7 +3,7 @@ const outputTag = document.getElementById ('outPut');
 
 // name
 
-const name = prompt('Whats your name? ');
+const name = prompt('Whats your name?');
 
 console.log(name);
 
